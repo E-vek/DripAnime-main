@@ -1,0 +1,31 @@
+{
+  "name": "dripanime",
+  "version": "1.0.0",
+  "description": "Online Anime clothing webstore",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "build": "npm install express nodemon mongoose bcryptjs jsonwebtoken"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathmesh-ka-github/DripAnime.git"
+  },
+  "author": "prathmesh kale",
+  "license": "LICENSE",
+  "bugs": {
+    "url": "https://github.com/prathmesh-ka-github/DripAnime/issues"
+  },
+  "homepage": "https://github.com/prathmesh-ka-github/DripAnime#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
